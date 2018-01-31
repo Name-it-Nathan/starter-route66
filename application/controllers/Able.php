@@ -13,6 +13,10 @@
  */
 class Able extends Application {
     //put your code here
+    
+    function __construct() {
+        parent::__construct();
+    }
     public function index()
     {
         $this->show(1);
