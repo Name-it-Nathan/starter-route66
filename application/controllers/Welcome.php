@@ -25,12 +25,4 @@ class Welcome extends Application
 
 		$this->render();
 	}
-
-        public function show($key)
-        {
-            $this->data['pagebody'] = 'actor';
-            $source = $this->quotes->get($key);
-            $this->data = array_merge($this->data, (array) $source);
-            $this->render();
-        }
 }
