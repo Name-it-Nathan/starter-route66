@@ -3,7 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends Application
 {
-
 	function __construct()
 	{
 		parent::__construct();
@@ -25,5 +24,4 @@ class Welcome extends Application
 
 		$this->render();
 	}
-
 }
